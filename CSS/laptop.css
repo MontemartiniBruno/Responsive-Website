@@ -1,0 +1,15 @@
+.plans--container--slider {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1430px) {
+    .features--container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .plans--container--slider {
+        display: flex;
+        justify-content: center;
+    }
+}
